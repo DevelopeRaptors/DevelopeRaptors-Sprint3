@@ -1,0 +1,102 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 0rem;
+}
+
+.productos {
+    width: 100%;
+    max-width: 300px;
+    margin: 1rem auto; 
+    padding: 1rem 0rem;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 0 auto;
+    border: 1px solid green; 
+}
+
+.listaproductos {
+    font-size: 1.2rem;
+    margin: 1rem auto;
+    padding: 1rem 0rem;
+}
+
+.informacion {
+    width: 100%;
+    max-width: 700px;
+    margin: 1rem auto; 
+    padding: 1rem 0rem;
+    flex-direction: row;
+    background-color: #64864f;
+    border: 1px solid #64864f; 
+}
+
+.formulario {
+    padding: .75rem;
+    width  : 740px;
+    height : 498px;
+    margin : auto;
+    padding: 1em;
+    display:grid;
+}
+
+.imagen {
+    width: 100%;
+    max-width: 300px;
+    max-height: 200px;
+    display: block;
+    margin: auto;
+}
+
+.titulo-info {
+    float: left;
+    color: white;
+    margin-top: 3px;
+}
+
+.cajon-info {
+    width: 600px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    padding : 12px 20px;
+    margin: 8px 0;
+}
+
+.area-info {
+    width: 600px;
+    height: 50px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+.cajon-info:focus, .area-info:hover {
+    border: 3px solid #555;
+}
+
+.btn {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    margin-left: 33%;
+}
+.btn:hover {
+    background-color: #23c483;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+.btn:active {
+    transform: translateY(-1px);
+}

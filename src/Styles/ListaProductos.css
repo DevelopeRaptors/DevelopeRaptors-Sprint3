@@ -1,0 +1,65 @@
+
+.populares__contenido {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0rem;
+}
+.populares__card {
+    background-color: #64864f;
+    width: 90%;
+    max-width: 370px;
+    margin: 1rem auto; 
+    border: 1px solid green;  
+}
+.populares__card___imagen {
+    width: 100%;
+    max-width: 370px; 
+}
+.populares__card___base {
+    padding: .75rem;
+}
+.populares__card___titulo {
+    color: #333333;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: -3px;
+}
+.populares__card___descripcion {
+    margin-top: -20px;
+    color: #333333;
+    text-align: justify;
+}
+/* From uiverse.io */
+button {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    margin-left: 33%;
+}
+button:hover {
+    background-color: #23c483;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+button:active {
+    transform: translateY(-1px);
+}
+
+@media screen and (min-width: 768px) {
+    .populares__contenido{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 0 auto;
+    } 
+}

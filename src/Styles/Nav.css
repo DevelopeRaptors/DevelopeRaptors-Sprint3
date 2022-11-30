@@ -1,0 +1,86 @@
+/*SECCION DEL HEADER*/
+.cabecera {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: green;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.logo {
+    height: 200px;
+    margin: 5px;
+}
+
+.menu-items {
+    list-style: none;
+    margin: 10px;
+}
+
+.menu-lista {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.menu-items:hover {
+    transform: scale(1.12);
+}
+
+.menu-items {
+    list-style: none;
+    margin: 10px;
+}
+
+.menu-link {
+    color: #201f1f;
+    margin-right: 1.25rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu-link#activo {
+    color: #333333;
+    font-weight: bold;
+}
+
+.menu-link:hover {
+    text-decoration: underline;
+    color: rgb(180, 179, 179);
+    font-weight: normal;
+}
+
+/*FINAL HEADER*/
+@media screen and (min-width: 768px) {
+    .cabecera {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .menu-lista {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.cart {
+    cursor: pointer;
+}
+
+.cart span:nth-child(1) {
+    font-size: 2rem;
+    color: white;
+}
+
+.cart span:nth-child(2) {
+    padding: 0 3px;
+    background-color: red;
+    color: white;
+    font-weight: bolx;
+    border-radius: 5px;
+    position: relative;
+    top: -15px;
+}
